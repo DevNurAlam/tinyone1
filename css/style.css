@@ -1,0 +1,73 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	color: #010101;
+}
+/*Header start*/
+header{
+	background-color: #fcdb00;
+	padding: 10px 0;
+}
+.menu ul li a{
+	font-weight: 700;
+	font-size: 22px;
+	color: #010101 !important;
+	padding: 0 35px !important;
+	transition: .3s linear;
+	-webkit-transition: .3s linear;
+	-moz-transition: .3s linear;
+}
+.menu li a:hovar{
+	color: white !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*Header end*/
+/*Slaider start*/
+.slider{
+	background-color: #fcdb00;
+}
+.s_content{
+	margin-top: 130px;
+	margin-bottom: 230px;
+
+}
+.s_content h1{
+	font-weight: 700;
+	font-size: 32px;
+	margin: 0;
+}
+.s_content h2{
+	font-weight: 400;
+	font-size: 20px;
+	color: #313841;
+	margin: 20px 0;
+}
+.s_content p{
+	color: #555555;
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.s_icon{}
+.s_icon li i{
+	font-size: 42px;
+	margin-right: 20px;
+	transition: 1s;
+	
+}
+.s_icon li i:hover{
+	color: white !important;
+	transform: rotateY(360deg);
+}
+.s_image{
+	margin-top: 60px;
+	margin-bottom: 110px;
+}
+.s_image img{
+	transition: 2s;
+}
+.s_image img:hover{
+	transform: rotateY(360deg);
+}
+
+/*Slaider end*/
